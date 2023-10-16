@@ -1,0 +1,36 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f4f4f4; /* Customize this background color */
+  }
+  
+  .not-found-header {
+    font-size: 8em;
+    font-weight: bold;
+    color: #333; /* Customize this text color */
+  }
+  
+  .not-found-text {
+    font-size: 1.5em;
+    color: #555; /* Customize this text color */
+  }
+  
+  .not-found-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #007BFF; /* Customize this button color */
+    color: #fff; /* Customize this button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .not-found-button:hover {
+    background-color: #0056b3; /* Customize this button hover color */
+  }
+  
